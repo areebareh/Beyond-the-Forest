@@ -61,3 +61,5 @@ between locations. That separation means:
   `_do_move` for footsteps, hits, and a win/lose jingle.
 - Add an inventory bar along the HUD using the `icon_medkit` / `icon_heart`
   assets that are already loaded and ready to draw.
+- Create interactions between monsters and discoveries
+- Add free movement for the main character
