@@ -7,11 +7,16 @@ own pixel art.
 
 ## ▶ Run it
 
+For Windows:
 ```
 pip install -r requirements.txt
 python main.py
 ```
-
+For mac/linux:
+```
+pip3 install
+python3 main.py
+```
 ## 🎮 Controls
 
 | Action        | Mouse            | Keyboard              |
