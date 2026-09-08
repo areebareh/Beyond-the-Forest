@@ -23,37 +23,6 @@ python main.py
 | Continue      | Continue button  | Enter / Space          |
 | Quit          | —                | Esc                    |
 
-## 🖼 Adding your own pixel art
-
-Drop PNG files into `assets/images/` using these **exact filenames**.
-Nothing else needs to change — the game checks for each file at startup
-and instantly swaps out the generated placeholder art for yours.
-
-**Backgrounds** (any size — auto-scaled to fill the 960×600 window; pixel-art
-scenes around 240×135 or 320×180 upscale nicely):
-- `bg_forest_entrance.png`
-- `bg_deep_forest.png`
-- `bg_riverbank.png`
-
-**Player** (recommended 64–96px square, transparent background):
-- `player.png`
-
-**Monsters** (recommended 96–140px square, transparent background):
-- `monster_goblin.png`
-- `monster_wolf.png`
-- `monster_giant_spider.png`
-- `monster_bandit.png`
-
-**Icons** (recommended 32px square — not yet drawn on screen by default,
-reserved for a future inventory panel, but already wired up in `assets.py`):
-- `icon_medkit.png`
-- `icon_heart.png`
-
-Until a given file exists, `assets.py` generates a small deterministic
-pixel-art-style placeholder for it (blocky sprite for characters/monsters,
-banded/textured tile for backgrounds), so the game is fully playable right
-now and will automatically look better as you finish each piece of art —
-no code edits required.
 
 ## 📦 Project structure
 
